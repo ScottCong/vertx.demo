@@ -20,7 +20,7 @@ public class PongVerticle extends AbstractVerticle{
 			System.out.println(message.body().toString());
 			if(!isMiss())eb.publish("ping","ping");
 			else eb.publish("miss","pong");
-		});
+		}); 
 		System.out.println("In the pong verticle");
 	}
 }

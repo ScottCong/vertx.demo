@@ -10,7 +10,7 @@
 
   <properties>
     <!-- the main class -->
-    <exec.mainClass>io.vertx.example.HelloWorldEmbedded</exec.mainClass>
+    <exec.mainClass>com.scott.vertx.demo.App</exec.mainClass>
   </properties>
 
   <dependencies>

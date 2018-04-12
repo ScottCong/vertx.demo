@@ -6,12 +6,6 @@ import io.vertx.core.eventbus.EventBus;
 
 public class PingVerticle extends AbstractVerticle {
 
-//	public void receiveServe(){
-//		EventBus eb = vertx.eventBus();
-//		eb.consumer("server ping", message ->{
-//			System.out.println("ping received!");
-//		});
-//	}
 	float skill = (float) 0.7;
 	
 	public boolean isMiss(){
